@@ -6,7 +6,7 @@ body, html {height: 100%;}
 
 .container {height: 100%; margin: 0 auto; width: 50%; bottom: 50%}
 
-article {;}
+article {height: 100%; margin: 0 auto; width: 50%; bottom: 50%}
 
 .btn {
   display: inline-block;
