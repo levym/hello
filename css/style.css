@@ -12,7 +12,6 @@ p {font-weight: 200; font-size: 20px;}
 
 article {
   padding: 60px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .meta {font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace; font-size: 10px; letter-spacing: .15em;}
@@ -21,6 +20,10 @@ article {
 .inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block;}
 
-footer .inline-list li {margin-right: 40px;}
-footer a {border: none; color: #0068FF;}
-footer {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+footer-left .inline-list li {margin-right: 40px;}
+footer-left a {border: none; color: #0068FF;}
+footer-left {margin: 0 auto; position: absolute; bottom: 55%; left: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+
+footer-right .inline-list li {margin-right: 40px;}
+footer-right a {border: none; color: #0068FF;}
+footer-right {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
