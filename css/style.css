@@ -13,7 +13,7 @@ article {padding: 60px;}
   color: #ECECEC;
   border-color: #ECECEC;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1.2px;
   border-radius: 8px;
   padding: 1rem 1.4rem;
   transition: color 0.4s, border-color 0.4s;
@@ -27,7 +27,7 @@ article {padding: 60px;}
 .btn:hover {
   color: #000 !important;
   border-color: #000;
-  border-width: 2px;
+  border-width: 1.2px;
   border-radius: 8px;
 }
 
