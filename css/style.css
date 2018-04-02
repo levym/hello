@@ -4,9 +4,9 @@ body, html {height: 100%;}
 
 .wrapper {height: 100%; margin: auto; width: 50%;}
 
-.container {height: 100%; margin: auto; width: 50%;}
+.container {}
 
-article {height: 100%; margin: auto; width: 50%;}
+article {}
 
 .btn {
   display: inline-block;
