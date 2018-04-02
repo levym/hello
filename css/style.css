@@ -17,7 +17,7 @@ article {padding: 60px;}
   border-radius: 0.4rem;
   padding: 1rem 1.4rem;
   margin-left: 1.4rem;
-  transition: border-color 0.3s, border-width 0.3s;
+  transition: border-color 0.3s;
   font-family: 'Open Sans' !important;
   letter-spacing: 1px;
   font-size: 70%;
