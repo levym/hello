@@ -15,12 +15,12 @@ a:hover {color: #0068FF}
 .inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block;}
 
-.left {text-align: center; margin: 0 auto; position: absolute; bottom: 50%; left: -255px; padding: 0 0 40px; width: 600px; -webkit-transform: rotate(-90deg);}
-.right {text-align: center; margin: 0 auto; position: absolute; bottom: 50%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+.left {margin: 0 auto; position: absolute; bottom: 50%; left: -255px; padding: 40px 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+.right {margin: 0 auto; position: absolute; bottom: 50%; right: -255px; padding: 0 0 40px; width: 600px; -webkit-transform: rotate(-90deg);}
 
-footer .inline-list li {text-align: center; margin-right: 40px;}
-footer a {text-align: center; text-decoration: none; border: none; color: #333;}
-footer a:hover {color: #0068FF}
+footer .inline-list li {margin-right: 40px;}
+footer .inline-list li a {text-decoration: none; border: none; color: #333;}
+footer .inline-list li a:hover {color: #0068FF}
 
-footer .left {text-align: center; margin: 0 auto; position: absolute; bottom: 50%; left: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
-footer .right {text-align: center; margin: 0 auto; position: absolute; bottom: 50%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+footer .left {margin: 0 auto; position: absolute; bottom: 50%; left: -255px; padding: 40px 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+footer .right {margin: 0 auto; position: absolute; bottom: 50%; right: -255px; padding: 0 0 40px; width: 600px; -webkit-transform: rotate(-90deg);}
