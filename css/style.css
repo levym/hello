@@ -22,7 +22,7 @@ article {
   border-width: 2px;
   border-radius: 12px;
   padding: 1rem 1.4rem;
-  transition: color 0.6s, border-color 0.6s;
+  transition: color 0.4s, border-color 0.4s;
   font-family: 'Open Sans' !important;
   letter-spacing: 1px;
   font-size: 122%;
