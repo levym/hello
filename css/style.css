@@ -18,4 +18,4 @@ footer .inline-list li a {text-decoration: none; border: none; color: #333;}
 footer .inline-list li a:hover {color: #FF0000}
 
 footer .left {margin: 0 auto; position: absolute; bottom: 50%; left: -255px; padding-top: 10px; width: 600px; -webkit-transform: rotate(-90deg);}
-footer .right {margin: 0 auto; position: absolute; bottom: 50%; right: -255px; padding-bottom: 10px; width: 600px; -webkit-transform: rotate(-90deg);}
+footer .right {color: #FFD024 !important; margin: 0 auto; position: absolute; bottom: 50%; right: -255px; padding-bottom: 10px; width: 600px; -webkit-transform: rotate(-90deg);}
