@@ -13,8 +13,8 @@ article {padding: 60px;}
   margin-bottom: 4px;
   border-color: #222;
   border-style: solid;
-  border-width: 6px;
-  border-radius: 0.4rem;
+  border-width: 4px;
+  border-radius: 4px;
   padding: 1rem 1.4rem;
   margin-left: 1.4rem;
   transition: border-color 0.3s;
