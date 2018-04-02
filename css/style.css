@@ -2,7 +2,7 @@ body {font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera
 
 body, html {height: 100%;}
 
-.wrapper {height: 100%;}
+.wrapper {aligh: center; height: 100%;}
 
 .container {margin: 0 auto; width: 100%; padding: 120px 12px 50px; overflow: auto;}
 
