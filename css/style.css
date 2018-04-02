@@ -21,7 +21,7 @@ article {padding: 60px; background-color: #333;}
   font-size: 50%;
   text-align: center; text-decoration: none
 
-  &:hover {
+  .btn:hover {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
@@ -34,7 +34,7 @@ article {padding: 60px; background-color: #333;}
 a {text-align: center; text-decoration: none; border: none; color: #333;}
 a:hover {border-bottom: 1px solid #333;}
 
-.meta {font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace; font-size: 10px; letter-spacing: .15em;}
+.meta {font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace; font-size: 10px; letter-spacing: .15em;}
 
 .inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block;}
