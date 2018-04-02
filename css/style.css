@@ -27,8 +27,8 @@ article {padding: 60px;}
 }
 
 .btn:hover {
-  border-color: #000;
   color: #000 !important;
+  border-color: #000;
   border-width: 4px;
   padding: 1rem 1.4rem;
   margin-left: 1.4rem;
