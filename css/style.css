@@ -2,13 +2,9 @@ body {font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera
 
 body, html {height: 100%;}
 
-.wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
-
 a {text-decoration: none; color: #333; border-bottom: 3px solid #0068FF;}
 a:hover {color: #0068FF}
 p {font-weight: 200; font-size: 20px;}
-
-.container {margin: 0 auto; width: 700px; padding: 120px 12px 50px; overflow: auto;}
 
 article {
   padding: 60px;
@@ -21,9 +17,10 @@ article {
 .inline-list li {display: inline-block;}
 
 .left {margin: 0 auto; position: absolute; bottom: 55%; left: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
-.right {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+.right {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px;}
 
 footer .inline-list li {margin-right: 40px;}
 footer a {border: none; color: #0068FF;}
-footer .left {margin: 0 auto; position: absolute; bottom: 55%; left: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+
+footer .left {margin: 0 auto; position: absolute; bottom: 55%; left: -255px; padding: 40px 0 0 0; width: 600px;}
 footer .right {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
