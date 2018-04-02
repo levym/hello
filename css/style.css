@@ -11,13 +11,12 @@ article {padding: 60px; background-color: #333;}
 .btn {
   display: inline-block;
   margin-bottom: 4px;
-  color: rgba(255, 255, 255, 0.7);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1.3px;
   border-radius: 0.3rem;
-  padding: 1rem 1.4rem;
-  margin-left: 1.4rem;
+  padding: 1rem 1.2rem;
+  margin-left: 1.2rem;
   transition: color 0.3s, border-color 0.3s;
   font-family: 'Open Sans' !important;
   letter-spacing: 2px;
@@ -28,8 +27,8 @@ article {padding: 60px; background-color: #333;}
 .btn:hover {
   text-decoration: none;
   border-color: rgba(255, 255, 255, 0.3);
-  padding: 1rem 1.4rem;
-  margin-left: 1.4rem;
+  padding: 1rem 1.2rem;
+  margin-left: 1.2rem;
   font-size: 70%;
   text-align: center; text-decoration: none;
 }
