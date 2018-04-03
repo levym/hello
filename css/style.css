@@ -32,6 +32,15 @@ article {
   font-size: 188%;
   text-align: center; 
   text-decoration: none;
+  
+   @include small {
+    -webkit-transform: rotate(-90deg);
+    font-size: 1rem;
+
+    + .btn {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
 }
 
 .btn:hover {
