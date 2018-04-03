@@ -14,22 +14,22 @@ article {
 }
 
 .btn {
-  color: #E0E0E0;
+  color: #161616;
   border-color: #E0E0E0;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 10px;
   padding: 1rem 1.4rem;
-  transition: color 0.4s, border-color 0.4s;
+  transition: background-color 0.4s, border-color 0.4s;
   font-family: 'Open Sans' !important;
   letter-spacing: 1px;
-  font-size: 80%;
+  font-size: 110%;
   text-align: center; 
   text-decoration: none;
 }
 
 .btn:hover {
-  color: #161616 !important;
+  background-color #E0E0E0;
   border-color: #161616;
   border-width: 2px;
   border-radius: 12px;
