@@ -23,7 +23,7 @@ article {
   transition: color 0.4s, border-color 0.4s;
   font-family: 'Open Sans' !important;
   letter-spacing: 1px;
-  font-size: 122%;
+  font-size: 80%;
   text-align: center; 
   text-decoration: none;
 }
