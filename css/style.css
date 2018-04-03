@@ -6,13 +6,14 @@ body, html {height: 100%;}
 
 .container {height: 100%; margin: 0 auto; width: 50%; bottom: 50%}
 
-article {;}
-
-.btn {
+article { 
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn {
   color: #F9F9F9;
   border-color: #F9F9F9;
   border-style: solid;
