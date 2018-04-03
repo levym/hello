@@ -29,7 +29,7 @@ article {
 }
 
 .btn:hover {
-  background-color #E0E0E0;
+  background-color #E0E0E0 !important;
   border-color: #161616;
   border-width: 2px;
   border-radius: 12px;
