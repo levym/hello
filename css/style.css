@@ -18,7 +18,7 @@ article {
   border-color: #E0E0E0;
   border-style: solid;
   border-width: 2px;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 1rem 1.4rem;
   transition: color 0.4s, border-color 0.4s;
   font-family: 'Open Sans' !important;
