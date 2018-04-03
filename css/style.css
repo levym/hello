@@ -2,6 +2,12 @@ body {font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera
 
 body, html {height: 100%;}
 
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
 .wrapper {height: 100%; margin: 0 auto; width: 50%; bottom: 50%}
 
 .container {height: 100%; margin: 0 auto; width: 50%; bottom: 50%}
