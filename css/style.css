@@ -20,7 +20,7 @@ article {
   border-width: 1px;
   border-radius: 10px;
   padding: 1rem 1.4rem;
-  transition: background-color 0.4s, border-color 0.4s;
+  transition: background-color 0.4s;
   font-family: 'Open Sans' !important;
   letter-spacing: 1px;
   font-size: 110%;
@@ -29,8 +29,8 @@ article {
 }
 
 .btn:hover {
-  background-color #E0E0E0 !important;
-  border-color: #161616;
+  background-color: #E0E0E0 !important;
+  border-color: #E0E0E0;
   border-width: 2px;
   border-radius: 12px;
 }
