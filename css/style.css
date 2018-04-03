@@ -9,6 +9,10 @@ body, html {height: 100%;}
 article {position: relative; margin-left: auto; margin-right: auto; vertical-align: middle !important;}
 
 .btn {
+  position: relative; 
+  margin-left: auto; 
+  margin-right: auto; 
+  vertical-align: middle !important;
   color: #F9F9F9;
   border-color: #F9F9F9;
   border-style: solid;
