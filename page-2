@@ -5,7 +5,7 @@
     <meta property="og:title" content="Michael Levy" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400" rel="stylesheet" type='text/css'>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="michael/script.js"></script>
     <title>Michael Levy</title>
     
     <!-- Google Analytics -->
