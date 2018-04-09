@@ -1,1 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Michael Levy" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="mlevy_" />
+    <meta name="twitter:title" content="Michael Levy" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://levym.github.io/michael/michael.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400" rel="stylesheet" type='text/css'>
+    <script async src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script async src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Michael Levy</title>
 
+<!--
+      ___                     ___          ___          ___          ___                                             ___                            
+     /__/\       ___         /  /\        /__/\        /  /\        /  /\                                           /  /\         ___         ___   
+    |  |::\     /  /\       /  /:/        \  \:\      /  /::\      /  /:/_                                         /  /:/_       /__/\       /__/|  
+    |  |:|:\   /  /:/      /  /:/          \__\:\    /  /:/\:\    /  /:/ /\   ___     ___           ___     ___   /  /:/ /\      \  \:\     |  |:|  
+  __|__|:|\:\ /__/::\     /  /:/  ___  ___ /  /::\  /  /:/~/::\  /  /:/ /:/_ /__/\   /  /\         /__/\   /  /\ /  /:/ /:/_      \  \:\    |  |:|  
+ /__/::::| \:\\__\/\:\__ /__/:/  /  /\/__/\  /:/\:\/__/:/ /:/\:\/__/:/ /:/ /\\  \:\ /  /:/         \  \:\ /  /://__/:/ /:/ /\ ___  \__\:\ __|__|:|  
+ \  \:\~~\__\/   \  \:\/\\  \:\ /  /:/\  \:\/:/__\/\  \:\/:/__\/\  \:\/:/ /:/ \  \:\  /:/           \  \:\  /:/ \  \:\/:/ /://__/\ |  |:|/__/::::\  
+  \  \:\          \__\::/ \  \:\  /:/  \  \::/      \  \::/      \  \::/ /:/   \  \:\/:/             \  \:\/:/   \  \::/ /:/ \  \:\|  |:|   ~\~~\:\ 
+   \  \:\         /__/:/   \  \:\/:/    \  \:\       \  \:\       \  \:\/:/     \  \::/               \  \::/     \  \:\/:/   \  \:\__|:|     \  \:\
+    \  \:\        \__\/     \  \::/      \  \:\       \  \:\       \  \::/       \__\/                 \__\/       \  \::/     \__\::::/       \__\/
+     \__\/                   \__\/        \__\/        \__\/        \__\/                                           \__\/          ~~~~             
+
+-->
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116820589-1"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116820589-1');
+    </script>
+    <script>
+      
+      $(document).ready(function(){
+    animateDiv('.a');
+    animateDiv('.b');
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(myclass){
+    var newq = makeNewPosition();
+    $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
+      animateDiv(myclass);        
+    });
+    
+};
+    </script>
+  </head>
+  
+<style>
+pre {text-align:center;font-size: 1vw;}
+div.a {position:fixed;}
+div.b {position:fixed;}
+</style>
+  
+  <body>
+<div class='a'>
+<pre>
+      ___                       ___           ___           ___           ___           ___ 
+     /\__\          ___        /\  \         /\__\         /\  \         /\  \         /\__\
+    /::|  |        /\  \      /::\  \       /:/  /        /::\  \       /::\  \       /:/  /
+   /:|:|  |        \:\  \    /:/\:\  \     /:/__/        /:/\:\  \     /:/\:\  \     /:/  / 
+  /:/|:|__|__      /::\__\  /:/  \:\  \   /::\  \ ___   /::\~\:\  \   /::\~\:\  \   /:/  /  
+ /:/ |::::\__\  __/:/\/__/ /:/__/ \:\__\ /:/\:\  /\__\ /:/\:\ \:\__\ /:/\:\ \:\__\ /:/__/   
+ \/__/~~/:/  / /\/:/  /    \:\  \  \/__/ \/__\:\/:/  / \/__\:\/:/  / \:\~\:\ \/__/ \:\  \   
+       /:/  /  \::/__/      \:\  \            \::/  /       \::/  /   \:\ \:\__\    \:\  \  
+      /:/  /    \:\__\       \:\  \           /:/  /        /:/  /     \:\ \/__/     \:\  \ 
+     /:/  /      \/__/        \:\__\         /:/  /        /:/  /       \:\__\        \:\__\
+     \/__/                     \/__/         \/__/         \/__/         \/__/         \/__/
+
+</pre>
+</div>
+<div class='b'>
+<pre>
+      ___       ___           ___           ___     
+     /\__\     /\  \         /\__\         |\__\    
+    /:/  /    /::\  \       /:/  /         |:|  |   
+   /:/  /    /:/\:\  \     /:/  /          |:|  |   
+  /:/  /    /::\~\:\  \   /:/__/  ___      |:|__|__ 
+ /:/__/    /:/\:\ \:\__\  |:|  | /\__\     /::::\__\
+ \:\  \    \:\~\:\ \/__/  |:|  |/:/  /    /:/~~/~   
+  \:\  \    \:\ \:\__\    |:|__/:/  /    /:/  /     
+   \:\  \    \:\ \/__/     \::::/__/     \/__/      
+    \:\__\    \:\__\        ~~~~                    
+     \/__/     \/__/                                
+
+</pre>
+</div>
+
+  </body>
+</html>
